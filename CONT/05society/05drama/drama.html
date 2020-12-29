@@ -151,6 +151,31 @@ nuaiwat.src = '';
 <pre><font style="font-size:25px;" face="Sarabun">
 <a href="https://demisart.github.io/thai/CONT/05society/society.html"><ruby>สังคมไทย<rt><font size='2' color="green" face='Arial Unicode MS'></font></rt></ruby></a> ➜ <a href=""><ruby><b>ละครไทย</b> <rt><font size='2' color="green" face='Arial Unicode MS'></font></rt></ruby> <font face="Chakra Petch">(</font>Dramas tailandeses<font face="Chakra Petch">)</font></a>
 
+<FORM>
+<input type="button" value="➕" onClick="passWord()">
+</FORM>
+<script language="javascript">
+
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Insira sua Senha','Digite sua senha');
+while (testV < 3) {
+ if (!pass1) 
+  history.go(-1);
+ if (pass1.toLowerCase() == "thai2lesson") {
+   alert('Logado !, Aguarde...');
+   window.open('***');
+   break;
+   } 
+  testV+=1;
+  var pass1 = 
+  prompt('Acesso Negado - Password Incorrecto.','Digite sua senha');
+ }
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+}
+</script>
 
 </font></pre>
 
