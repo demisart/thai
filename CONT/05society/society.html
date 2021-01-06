@@ -120,7 +120,7 @@ nuaiwat.src = '';
 	
 	</head>
 
-	<body bgcolor="#E4CB79">
+	<body bgcolor="#E4CB79" onkeydown="return false">
 		
 		<center>
 		
@@ -158,7 +158,31 @@ nuaiwat.src = '';
 <a href="javascript:void(0);" onmousedown="dondtriitai.play()">▶</a> <a href="https://demisart.github.io/thai/CONT/05society/04music/music.html"><ruby>ดนตรีไทย<rt><font size='2' color="green" face='Arial Unicode MS'></font></rt></ruby> <font face="Chakra Petch">(</font>Músicas tailandesas<font face="Chakra Petch">)</font></a>
 <a href="javascript:void(0);" onmousedown="lakoontai.play()">▶</a> <a href="https://demisart.github.io/thai/CONT/05society/05drama/drama.html"><ruby>ละครไทย<rt><font size='2' color="green" face='Arial Unicode MS'></font></rt></ruby> <font face="Chakra Petch">(</font>Dramas tailandeses<font face="Chakra Petch">)</font></a>
 <a href="javascript:void(0);" onmousedown="aahaantai.play()">▶</a> <a href=""><ruby>อาหารไทย<rt><font size='2' color="green" face='Arial Unicode MS'></font></rt></ruby> <font face="Chakra Petch">(</font>Culinária tailandesa<font face="Chakra Petch">)</font></a>🔒
+<FORM>
+<input type="button" value="➕ มวยไทย MUAY THAI" onClick="passWord()">
+</FORM>
+<script language="javascript">
 
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Insira sua Senha','Digite sua senha');
+while (testV < 3) {
+ if (!pass1) 
+  history.go(-1);
+ if (pass1.toLowerCase() == "thai2me") {
+   alert('Logado ! Aguarde...');
+   window.open('https://demisart.github.io/thai/CONT/05society/muaythai/muaythai.html');
+   break;
+   } 
+  testV+=1;
+  var pass1 = 
+  prompt('Acesso Negado - Password Incorrecto.','Digite sua senha');
+ }
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+}
+</script>
 
 </font></pre>
 
