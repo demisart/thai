@@ -6,21 +6,22 @@
 body {
     font-family: mainFont;
     background-color: bisque;
+    color: black;
 }
 
 #topo {
     max-width: 100%;
     /*background-image: url('https://trance-cell.com/wp-content/uploads/1-59-512x288.jpg');*/
-    background: rgb(250, 147, 51);
+    background: #DF1119;
     text-align: center;
 }
 
 header {
-    background-color: white;
+    background-color: #00237E;
 }
 
-nav {
-    color: black;
+#nave {
+    color: white;
     font-size: 25px;
 }
 
@@ -29,10 +30,14 @@ li {
 }
 
 a {
-    color: black;
+    color: inherit;
     text-decoration: none;
 }
 
 .menu ul li {
     display: inline;
+}
+
+main {
+    color: black;
 }
