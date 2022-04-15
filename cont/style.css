@@ -15,9 +15,12 @@ body {
     text-align: center;
 }
 
+header {
+    background-color: white;
+}
+
 nav {
     color: black;
-    background-color: white;
     font-size: 25px;
 }
 
