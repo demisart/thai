@@ -17,7 +17,7 @@ body {
 
 nav {
     color: black;
-    display: inline-block;
+    background-color: white;
     font-size: 25px;
 }
 
@@ -30,6 +30,6 @@ a {
     text-decoration: none;
 }
 
-.menu {
-    background-color: white;
+.menu ul li {
+    display: inline;
 }
