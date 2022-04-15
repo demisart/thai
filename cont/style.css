@@ -1,0 +1,35 @@
+@font-face {
+    font-family: mainFont;
+    src: url(Andika-Regular.ttf);
+}
+
+body {
+    font-family: mainFont;
+    background-color: bisque;
+}
+
+#topo {
+    max-width: 100%;
+    /*background-image: url('https://trance-cell.com/wp-content/uploads/1-59-512x288.jpg');*/
+    background: rgb(250, 147, 51);
+    text-align: center;
+}
+
+nav {
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: white;
+}
