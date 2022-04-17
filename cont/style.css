@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'mainThaiFont', 'mainFont';
+    font-family: mainFont;
     background-color: bisque;
     color: black;
 }
@@ -50,4 +50,12 @@ main {
 
 #principal {
     font-size: 20px;
+}
+
+.alphabet {
+    font-size: 35px;
+}
+
+.thai {
+    font-family: mainThaiFont;
 }
