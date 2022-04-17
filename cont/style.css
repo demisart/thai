@@ -3,8 +3,13 @@
     src: url(Andika-Regular.ttf);
 }
 
+@font-face {
+    font-family: mainThaiFont;
+    src: url(Sarabun-Regular.ttf);
+}
+
 body {
-    font-family: mainFont;
+    font-family: 'mainThaiFont', 'mainFont';
     background-color: bisque;
     color: black;
 }
