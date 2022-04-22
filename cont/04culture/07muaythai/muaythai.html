@@ -46,22 +46,20 @@
 
     <a href="../culture.html">Cultura</strong> ▶ <strong>Muay Thai</strong>
 
-        <CENTER>
-            <FORM>
-                <input type="button" value="ENTRAR AQUI!" onClick="passWord()">
-            </FORM>
-        </CENTER>
-
+        <FORM>
+            <input type="button" value="ENTRAR AQUI" onClick="passWord()">
+        </FORM>
         <script language="javascript">
+
             function passWord() {
                 var testV = 1;
                 var pass1 = prompt('Insira sua Senha', 'Digite sua senha');
                 while (testV < 3) {
                     if (!pass1)
                         history.go(-1);
-                    if (pass1.toLowerCase() == "mestrepako01") {
+                    if (pass1.toLowerCase() == "getbook") {
                         alert('Logado !, Aguarde...');
-                        window.open('https://demisart.github.io/thai/cont/04culture/07muaythai/muaythai2.html');
+                        window.open('muaythai2.html');
                         break;
                     }
                     testV += 1;
